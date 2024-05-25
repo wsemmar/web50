@@ -1,0 +1,112 @@
+body{
+    font-family: arial, sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.search_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    font-size: 16px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    width: 600px;
+    height: 44px;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+.btn{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+}
+a{
+    padding: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+a:hover{
+    text-decoration: underline;    
+}
+body{
+    background-color: #1f1f1f;
+}
+.logo_container{
+    position: relative;
+}
+.logo{
+    height: 92px;
+}
+span{
+    color: #4487f6;
+    font: 16px / 16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+
+}
+.label_container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+label,a, .btn, .input {
+    color: #e8eaed;
+}
+label{
+    font-size: 13px;
+    padding-right: 15px;
+}
+.links2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo2{
+    height: 35px;
+}
+.btn2{
+    color: #e8eaed;
+    background-color:#8ab4f8;
+    border: 1px solid #8ab4f8;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
+}
+.label_container input{
+    height: 25px;
+    border-radius: 0;
+}
